@@ -11,7 +11,7 @@ You can test this software:
 
 
 ```bash
-docker run -p 80:8888 -v /var/run/docker.sock:/var/run/docker.sock -u root gversmee/dbgap2x
+docker run -p 80:8888 -v /var/run/docker.sock:/var/run/docker.sock -u root dbmi/dbgap2x
 ```
 
 and then open your web browser at http://localhost, and use the password `versmee`
@@ -19,7 +19,7 @@ and then open your web browser at http://localhost, and use the password `versme
 
 
 ```R
-devtools::install_github("gversmee/dbGaP2x")
+devtools::install_github("hms-dbmi/dbGaP2x")
 ```
 
 ## Introduction
@@ -27,7 +27,7 @@ devtools::install_github("gversmee/dbGaP2x")
 
 
 ```R
-#devtools::install_github("gversmee/dbGaP2x", force = TRUE)
+#devtools::install_github("hms-dbmi/dbGaP2x", force = TRUE)
 library(dbGaP2x)
 ```
 
